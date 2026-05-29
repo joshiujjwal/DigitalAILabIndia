@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.Python
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Alembic (keep alembic.ini and versions/, ignore pycache)
+alembic/__pycache__/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+!.env.example
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.tsbuildinfo
+frontend/coverage/
+
+# Logs
+*.log
+logs/
+celery*.log
+*.pid
+
+# ML / HuggingFace
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+model_cache/
+hf_cache/
+.cache/huggingface/
+transformers_cache/
+outputs/
+
+# Data (keep schemas and samples, ignore large files)
+data/uploads/
+data/raw/
+*.csv
+*.jsonl
+*.parquet
+!data/samples/*.csv
+!data/samples/*.jsonl
+!data/schemas/*.json
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Jupyter (if any exploration notebooks)
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
